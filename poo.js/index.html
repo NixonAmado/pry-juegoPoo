@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.css"
+    rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css"/>
+    
+    <!-- MDB -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.js"
+    ></script>
+    <!-- pry-js -->
+    <script defer src="algoritmo.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <main>
+
+
+            <!-- <div class="row row-cols-1 row-cols-md-4 g-4 px-3">
+                <div class="col">
+                  <div class="card">
+                    <img src="images/Jedi-Symbol.png" class="card-img-top" alt="Jedi Order" height="250px"/>
+                    <div class="card-body">
+                      <h5 class="card-title">Jedi</h5>
+                      <p class="card-text">
+                        
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/masterYoda.png" class="card-img-top" alt="master yoda" height="250px"/>
+                    <div class="card-body">
+                      <h5 class="card-title">Mastro Yoda</h5>
+                      <p class="card-text">
+                        
+                      </p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">
+                            <button type="button" class="btn btn-primary w-100">Elegir</button>
+                        </small>
+                      </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="/images/TheSithOrder-Symbol.png" class="card-img-top" alt="The Sith Order Symbol" height="250px"/>
+                    <div class="card-body">
+                      <h5 class="card-title">Sith</h5>
+                      <p class="card-text"> </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/Daco_1014616.png" class="card-img-top" alt="Dark Vader" height="250px"/>
+                    <div class="card-body">
+                      <h5 class="card-title">Dark Vader</h5>
+                      <p class="card-text">Experto combatiente en cuerpo a cuerpo con el sable de luz, que puede usar para reflejar los impactos de un blaster o lanzar para que vuelva a su mano.</p>
+                    </div>
+                    <ul class="list-group list-group-light list-group-small">
+                        <li class="list-group-item px-3">Cras justo odio</li>
+                    </ul>
+                  </div>
+                </div>
+              </div> -->
+            <!-- <button onclick="alert('ATAQUE') ">Usar Fuerza</button> -->
+            <!-- <button onclick="alert('VIDAA')">Entrenar</button> -->
+            <!-- <button onclick="alert('MASSS VIDA')">Enseñar</button> -->
+
+        <div class="slide-container">
+  
+            <div class="wrapper">
+              <div class="clash-card barbarian">
+                <div class="clash-card__image clash-card__image--barbarian">
+                  <img src="\images\jediCrack.png" alt="Jedi" />
+                </div>
+                <div class="clash-card__level clash-card__level--barbarian">Level 2</div>
+                <div class="clash-card__unit-name">The Jedi</div>
+                <div class="clash-card__unit-description">
+                  Caballeros que poseen un poder especial para controlar la Fuerza. La Orden Jedi reunió a estos protectores para mantener la paz y la justicia en la República Galáctica.
+                </div>
+          
+                <div class="clash-card__unit-stats clash-card__unit-stats--barbarian clearfix">
+                  <div class="one-third">
+                    <div class="stat">60<sup>S</sup></div>
+                    <div class="stat-value">Training</div>
+                  </div>
+          
+                  <div class="one-third">
+                    <div class="stat">20</div>
+                    <div class="stat-value">Speed</div>
+                  </div>
+          
+                  <div class="one-third no-border">
+                    <div class="stat">100</div>
+                    <div class="stat-value">life</div>
+                  </div>
+                  <button type="button" class="btn btn-success w-100 btn-seleccionar" value="jedi"> Seleccionar</button>
+                </div>
+          
+              </div> <!-- end clash-card barbarian-->
+            </div> <!-- end wrapper -->
+            
+            <div class="wrapper">
+              <div class="clash-card archer">
+                <div class="clash-card__image clash-card__image--archer">
+                  <img src="/images/masterYoda.png" alt="archer" />
+                </div>
+                <div class="clash-card__level clash-card__level--archer">Level 2</div>
+                <div class="clash-card__unit-name">Master Joda</div>
+                <div class="clash-card__unit-description">
+                  Es experto en transformar la defensa en ataque usando la Fuerza para repeler disparos de bláster, curar sus heridas y protegerse mientras usa su sable de luz para infligir daño.
+                </div>
+          
+                <div class="clash-card__unit-stats clash-card__unit-stats--archer clearfix">
+                  <div class="one-third">
+                    <div bclass="stat">40<sup>S</sup></div>
+                    <div class="stat-value">Training</div>
+                  </div>
+          
+                  <div class="one-third">
+                    <div class="stat">30</div>
+                    <div class="stat-value">Speed</div>
+                  </div>
+          
+                  <div class="one-third no-border">
+                    <div class="stat">150</div>
+                    <div class="stat-value">life</div>
+                  </div>
+                <button type="button" class="btn btn-success w-100 btn-seleccionar" value="yoda">Seleccionar</button>
+
+                </div>
+              </div> <!-- end clash-card archer-->
+            </div> <!-- end wrapper -->
+            
+            <div class="wrapper">
+              <div class="clash-card giant">
+                <div class="clash-card__image clash-card__image--giant">
+                  <img src="/images/TheSithOrder-Symbol.png" alt="Sith Order" />
+                </div>
+                <div class="clash-card__level clash-card__level--giant">Level 2</div>
+                <div class="clash-card__unit-name">The Sith</div>
+                <div class="clash-card__unit-description">
+                  Conocidos como la Orden Sith, fue una antigua orden de portadores de la Fuerza dedicados al lado oscuro de la Fuerza.
+                </div>
+          
+                <div class="clash-card__unit-stats clash-card__unit-stats--giant clearfix">
+                  <div class="one-third">
+                    <div class="stat">40<sup>M</sup></div>
+                    <div class="stat-value">Training</div>
+                  </div>
+          
+                  <div class="one-third">
+                    <div class="stat">20</div>
+                    <div class="stat-value">Speed</div>
+                  </div>
+          
+                  <div class="one-third no-border">
+                    <div class="stat">100</div>
+                    <div class="stat-value">life</div>
+                  </div>
+                  <button type="button" class="btn btn-success w-100 btn-seleccionar" value="sith"> Seleccionar</button>
+                </div>
+          
+              </div> <!-- end clash-card giant-->
+            </div> <!-- end wrapper -->
+            
+             <div class="wrapper">
+              <div class="clash-card goblin">
+                <div class="clash-card__image clash-card__image--goblin">
+                  <img src="/images/darth-vader.png" alt="darkVader" />
+                </div>
+                <div class="clash-card__level clash-card__level--goblin">Level 2</div>
+                <div class="clash-card__unit-name">Dark Vader</div>
+                <div class="clash-card__unit-description">
+                  Experto combatiente en cuerpo a cuerpo con el sable de luz, que puede usar para reflejar los impactos de un blaster o lanzar para que vuelva a su mano.
+                </div>
+          
+                <div class="clash-card__unit-stats clash-card__unit-stats--goblin clearfix">
+                  <div class="one-third">
+                    <div class="stat">1<sup>M</sup></div>
+                    <div class="stat-value">Training</div>
+                  </div>
+          
+                  <div class="one-third">
+                    <div class="stat">27</div>
+                    <div class="stat-value">Speed</div>
+                  </div>
+          
+                  <div class="one-third no-border">
+                    <div class="stat">150</div>
+                    <div class="stat-value">life</div>
+                  </div>
+                  <button type="button" class="btn btn-success w-100 btn-seleccionar" value="darthVader"> Seleccionar</button>
+                </div>
+          
+              </div> <!-- end clash-card goblin-->
+            </div> <!-- end wrapper -->
+            
+            <div class="wrapper">
+              <div class="clash-card wizard">
+                <div class="clash-card__image clash-card__image--wizard">
+                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/wizard.png" alt="wizard" />
+                </div>
+                <div class="clash-card__level clash-card__level--wizard">Level 6</div>
+                <div class="clash-card__unit-name">The Wizard</div>
+                <div class="clash-card__unit-description">
+                  The Wizard is a terrifying presence on the battlefield. Pair him up with some of his fellows and cast concentrated blasts of destruction on anything, land or sky!
+                </div>
+          
+                <div class="clash-card__unit-stats clash-card__unit-stats--wizard clearfix">
+                  <div class="one-third">
+                    <div class="stat">5<sup>M</sup></div>
+                    <div class="stat-value">Training</div>
+                  </div>
+          
+                  <div class="one-third">
+                    <div class="stat">16</div>
+                    <div class="stat-value">Speed</div>
+                  </div>
+          
+                  <div class="one-third no-border">
+                    <div class="stat">4000</div>
+                    <div class="stat-value">Cost</div>
+                  </div>
+                  <button type="button" class="btn btn-success w-100 btn-seleccionar" value="relleno"> Seleccionar</button>
+                </div>
+          
+              </div> <!-- end clash-card wizard-->
+            </div> <!-- end wrapper -->
+            
+          </div> <!-- end container -->
+
+    </main>
+</body>
+</html>
